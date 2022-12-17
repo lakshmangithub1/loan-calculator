@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-bg{
+    background-color: #87a5d6; 
+    
+    background-size: cover;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    padding-top: 20px;
+} 
+
+
+.card {
+    background-color: #ffffff; 
+    width: 50vh;
+    border-radius: 12px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+
+    
+}  
+
+.head {
+    align-self: center;
+} 
+
+.logo { 
+    background-color: darkgrey; 
+    padding: 8px;
+    
+    
+} 
+.input {
+    padding: 8px; 
+    margin-top: 8px;
+    
+}
+
+.form {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    
+} 
+
+.input-cont {
+    
+    margin-bottom: 8px; 
+
+
+} 
+.buttcont {
+    align-self: center; 
+    margin-bottom: 10px; 
+    
+}
+.butt {
+    font-family:"Roboto"; 
+    color: black; 
+    background-color: #87a5d6; 
+    border: 0px solid #87a5d6; 
+    border-radius: 5px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    font-weight: bold;
+
+}

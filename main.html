@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Loan calculator</title> 
+    
+    
+</head>
+<body class="main-bg">
+    <div class="card">
+        <h1 class="head">Loan calculator</h1>
+        <form id="calForm" class="form">
+            <div class="input-cont">
+                <div>
+                    <label for="inputLoan">Loan Amount</label>
+                </div>
+                
+                <input type="text" placeholder="Loan amount" class="input" id="inputLoan">
+                
+                
+            </div>
+            <div class="input-cont">
+                <div>
+                    <label for="inputInt">Intrest</label>
+                </div>
+                
+                <input type="text" placeholder="Enter percentage intrest" class="input" id="inputInt">
+                
+            </div>
+            <div class="buttcont">
+                <button type="sybmit" class="butt"> calculate</button>
+            </div>
+            
+            
+        </form>
+        <div class="results">
+            <h3>Results</h3> 
+            <div class="finalresults">
+                <h5>Monthly Payment : <span style="color:red"></span></h5>
+                <h5>Total Payment : <span style="color:red"></span></h5>
+                <h5>Total Intrest : <span style="color:red"></span></h5>
+            </div>
+            
+
+        </div>
+        
+
+    </div>
+    
+    <script src="dynamic.js"></script>
+</body>
+</html>
